@@ -2,12 +2,12 @@
 
 **AI-Powered Brand Strategy & Creative Critique System**
 
-Creative Council is a sophisticated React application that leverages Google's Gemini 1.5 Pro model to simulate a panel of expert brand strategists and consumer personas. It autonomously researches a brand, generates relevant market personas, and provides deep, multi-perspective critiques of creative assets (images and videos).
+Creative Council is a sophisticated React application that leverages Google's Gemini 3 Pro (Preview) model to simulate a panel of expert brand strategists and consumer personas. It autonomously researches a brand, generates relevant market personas, and provides deep, multi-perspective critiques of creative assets (images and videos).
 
 ## 🚀 Features
 
 *   **🕵️ Deep Brand Research**: Automatically analyzes a target URL to extract brand voice, tone, target audience, competitors, and unique selling propositions.
-*   **👥 Dynamic Persona Generation**: Creates realistic, market-specific consumer personas (e.g., "The Skeptical Gen Z", "The Value-Driven Parent") tailored to the brand's profile.
+*   **👥 Dynamic Persona Generation**: Creates realistic, market-specific consumer personas tailored to the brand's profile.
 *   **⚖️ AI Creative Judgment**: Simulates a "council" where each persona reviews uploaded creative assets, providing scores, quotes, pros/cons, and emotional reactions.
 *   **📊 Comprehensive Reporting**: Synthesizes all judgments into a strategic executive summary and exports a beautifully formatted PDF report.
 *   **🎥 Video & Image Analysis**: Supports both static images and video assets for critique.
@@ -16,7 +16,7 @@ Creative Council is a sophisticated React application that leverages Google's Ge
 ## 🛠️ Tech Stack
 
 *   **Frontend**: React 19, TypeScript, Vite
-*   **AI Model**: Google Gemini 1.5 Pro (via `@google/genai` SDK)
+*   **AI Model**: Google Gemini 3 Pro (Preview) (via `@google/genai` SDK)
 *   **Styling**: CSS Modules with a "Glassmorphism" / Obsidian theme
 *   **PDF Generation**: `html2pdf.js`
 *   **Markdown Rendering**: `react-markdown`
